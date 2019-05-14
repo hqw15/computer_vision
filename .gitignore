@@ -1,1 +1,6 @@
 .DS_Store
+train/all_neg/*
+train/neg/*
+train/pos/*
+result/*
+标注/*

@@ -1,7 +1,0 @@
-add_definitions(-std=c++11)
-aux_source_directory(. DIR_SRCS)
-#find_package(opencv)
-#include_directories(${opencv_core})
-find_package(OpenCV REQUIRED)
-add_executable(test ${DIR_SRCS})
-target_link_libraries(test ${OpenCV_LIBS})
